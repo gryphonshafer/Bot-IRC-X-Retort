@@ -9,7 +9,6 @@ use warnings;
 sub init {
     my ($bot) = @_;
     $bot->load('Store');
-    my %retorts = %{ $bot->store->get('retorts') || {} };
 
     $bot->hook(
         {
@@ -19,6 +18,7 @@ sub init {
         sub {
             my ( $bot, $in, $m ) = @_;
 
+            my %retorts = %{ $bot->store->get('retorts') || {} };
             push( @{ $retorts{ lc( $m->{term} ) } }, $m->{retort} );
             $bot->store->set( 'retorts' => \%retorts );
 
@@ -34,6 +34,7 @@ sub init {
         sub {
             my ( $bot, $in, $m ) = @_;
 
+            my %retorts = %{ $bot->store->get('retorts') || {} };
             delete $retorts{ lc( $m->{term} ) };
             $bot->store->set( 'retorts' => \%retorts );
 
@@ -48,7 +49,8 @@ sub init {
         sub {
             my ( $bot, $in ) = @_;
 
-            my @terms =
+            my %retorts = %{ $bot->store->get('retorts') || {} };
+            my @terms   =
                 map { $_->[0] } sort { $a->[1] <=> $b->[1] } map { [ $_, rand ] }
                 grep { $in->{text} =~ /\b$_\b/i } keys %retorts;
 
