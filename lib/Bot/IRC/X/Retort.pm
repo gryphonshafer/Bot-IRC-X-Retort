@@ -1,6 +1,7 @@
 package Bot::IRC::X::Retort;
 # ABSTRACT: Bot::IRC plugin for bot-retorting to key words
 
+use 5.012;
 use strict;
 use warnings;
 
