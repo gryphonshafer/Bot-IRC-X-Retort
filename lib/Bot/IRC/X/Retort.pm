@@ -75,8 +75,8 @@ __END__
 =begin :badges
 
 =for markdown
-[![Build Status](https://travis-ci.org/gryphonshafer/Bot-IRC-X-Retort.svg)](https://travis-ci.org/gryphonshafer/Bot-IRC-X-Retort)
-[![Coverage Status](https://coveralls.io/repos/gryphonshafer/Bot-IRC-X-Retort/badge.png)](https://coveralls.io/r/gryphonshafer/Bot-IRC-X-Retort)
+[![build](https://github.com/gryphonshafer/Bot-IRC-X-Retort/workflows/build/badge.svg)](https://github.com/gryphonshafer/Bot-IRC-X-Retort/actions?query=workflow%3Abuild)
+[![codecov](https://codecov.io/gh/gryphonshafer/Bot-IRC-X-Retort/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Bot-IRC-X-Retort)
 
 =end :badges
 
@@ -104,8 +104,8 @@ You can look for additional information at:
 * L<Bot::IRC>
 * L<GitHub|https://github.com/gryphonshafer/Bot-IRC-X-Retort>
 * L<MetaCPAN|https://metacpan.org/pod/Bot::IRC::X::Retort>
-* L<Travis CI|https://travis-ci.org/gryphonshafer/Bot-IRC-X-Retort>
-* L<Coveralls|https://coveralls.io/r/gryphonshafer/Bot-IRC-X-Retort>
+* L<GitHub Actions|https://github.com/gryphonshafer/Bot-IRC-X-Retort/actions>
+* L<Codecov|https://codecov.io/gh/gryphonshafer/Bot-IRC-X-Retort>
 * L<CPANTS|http://cpants.cpanauthors.org/dist/Bot-IRC-X-Retort>
 * L<CPAN Testers|http://www.cpantesters.org/distro/T/Bot-IRC-X-Retort.html>
 
