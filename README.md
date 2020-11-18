@@ -6,7 +6,7 @@ Bot::IRC::X::Retort - Bot::IRC plugin for bot-retorting to key words
 
 version 1.03
 
-[![build](https://github.com/gryphonshafer/Bot-IRC-X-Retort/workflows/build/badge.svg)](https://github.com/gryphonshafer/Bot-IRC-X-Retort/actions?query=workflow%3Abuild)
+[![test](https://github.com/gryphonshafer/Bot-IRC-X-Retort/workflows/test/badge.svg)](https://github.com/gryphonshafer/Bot-IRC-X-Retort/actions?query=workflow%3Atest)
 [![codecov](https://codecov.io/gh/gryphonshafer/Bot-IRC-X-Retort/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Bot-IRC-X-Retort)
 
 # SYNOPSIS
