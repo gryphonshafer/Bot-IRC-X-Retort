@@ -1,6 +1,7 @@
 Revision history for Bot::IRC::X::Retort
 
 {{$NEXT}}
+        - Override some minimum version reqs in dist.ini
 
 1.03      2021-01-12 08:38:55-08:00 America/Los_Angeles
         - Migrate to Test2::V0 and add exact
